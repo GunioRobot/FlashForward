@@ -953,7 +953,7 @@ Rendering rescues/layout (not_found)
 Processing ApplicationController#index (for 127.0.0.1 at 2009-11-02 21:20:43) [GET]
 
 ActionController::RoutingError (No route matches "/blog" with {:method=>:get}):
-  
+
 
 Rendering rescues/layout (not_found)
   [4;36;1mSQL (1.8ms)[0m   [0;1m SELECT name
@@ -1004,7 +1004,7 @@ Processing ApplicationController#show (for 127.0.0.1 at 2009-11-02 22:02:29) [GE
   Parameters: {"id"=>"1"}
 
 SyntaxError (/Volumes/Work/blog/app/controllers/posts_controller.rb:95: syntax error, unexpected $end, expecting kEND):
-  
+
 
 Rendered rescues/_trace (72.7ms)
 Rendered rescues/_request_and_response (3.2ms)
@@ -1427,12 +1427,12 @@ Rendered posts/_post (3.1ms)
   [4;35;1mComment Load (0.5ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 3) [0m
 
 ActionView::TemplateError (Missing template comments/_comment.erb in view path app/views) on line #12 of app/views/posts/show.html.erb:
-9: 
+9:
 10: <h2>Comments</h2>
 11: <div id="comments">
 12:   <%= render :partial => @post.comments %>
 13: </div>
-14: 
+14:
 15: <% form_for [@post, Comment.new] do |f| %>
 
     app/views/posts/show.html.erb:12
@@ -1452,12 +1452,12 @@ Rendered posts/_post (3.0ms)
   [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 3) [0m
 
 ActionView::TemplateError (Missing template comments/_comment.erb in view path app/views) on line #12 of app/views/posts/show.html.erb:
-9: 
+9:
 10: <h2>Comments</h2>
 11: <div id="comments">
 12:   <%= render :partial => @post.comments %>
 13: </div>
-14: 
+14:
 15: <% form_for [@post, Comment.new] do |f| %>
 
     app/views/posts/show.html.erb:12
@@ -1477,12 +1477,12 @@ Rendered posts/_post (3.0ms)
   [4;35;1mComment Load (0.6ms)[0m   [0mSELECT * FROM "comments" WHERE ("comments".post_id = 3) [0m
 
 ActionView::TemplateError (Missing template comments/_comment.erb in view path app/views) on line #12 of app/views/posts/show.html.erb:
-9: 
+9:
 10: <h2>Comments</h2>
 11: <div id="comments">
 12:   <%= render :partial => @post.comments %>
 13: </div>
-14: 
+14:
 15: <% form_for [@post, Comment.new] do |f| %>
 
     app/views/posts/show.html.erb:12
@@ -1661,7 +1661,7 @@ Processing ApplicationController#create (for 127.0.0.1 at 2009-11-20 18:13:18) [
   Parameters: {"commit"=>"Add comment", "post_id"=>"3", "authenticity_token"=>"uIx7m1VZFQpAHc6MZaI2805nkdioGyHyZNGfRrqpOLU=", "comment"=>{"body"=>"KUREEEEEEC"}}
 
 SyntaxError (/Volumes/Work/blog/app/controllers/comments_controller.rb:9: syntax error, unexpected $end, expecting kEND):
-  
+
 
 Rendered rescues/_trace (53.1ms)
 Rendered rescues/_request_and_response (0.5ms)
@@ -1672,7 +1672,7 @@ Processing ApplicationController#create (for 127.0.0.1 at 2009-11-20 18:13:21) [
   Parameters: {"commit"=>"Add comment", "post_id"=>"3", "authenticity_token"=>"uIx7m1VZFQpAHc6MZaI2805nkdioGyHyZNGfRrqpOLU=", "comment"=>{"body"=>"KUREEEEEEC"}}
 
 SyntaxError (/Volumes/Work/blog/app/controllers/comments_controller.rb:9: syntax error, unexpected $end, expecting kEND):
-  
+
 
 Rendered rescues/_trace (141.0ms)
 Rendered rescues/_request_and_response (0.5ms)
@@ -1698,7 +1698,7 @@ Processing ApplicationController#create (for 127.0.0.1 at 2009-11-22 13:50:11) [
   Parameters: {"commit"=>"Add comment", "post_id"=>"3", "authenticity_token"=>"uIx7m1VZFQpAHc6MZaI2805nkdioGyHyZNGfRrqpOLU=", "comment"=>{"body"=>"KUREEEEEEC"}}
 
 SyntaxError (/Volumes/Work/blog/app/controllers/comments_controller.rb:9: syntax error, unexpected $end, expecting kEND):
-  
+
 
 Rendered rescues/_trace (40.6ms)
 Rendered rescues/_request_and_response (2.0ms)
@@ -1724,7 +1724,7 @@ Processing ApplicationController#create (for 127.0.0.1 at 2009-11-23 03:00:04) [
   Parameters: {"commit"=>"Add comment", "post_id"=>"3", "authenticity_token"=>"uIx7m1VZFQpAHc6MZaI2805nkdioGyHyZNGfRrqpOLU=", "comment"=>{"body"=>"KUREEEEEEC"}}
 
 SyntaxError (/Volumes/Work/blog/app/controllers/comments_controller.rb:9: syntax error, unexpected $end, expecting kEND):
-  
+
 
 Rendered rescues/_trace (41.0ms)
 Rendered rescues/_request_and_response (11.0ms)
@@ -1750,7 +1750,7 @@ Processing ApplicationController#create (for 127.0.0.1 at 2009-11-23 03:01:29) [
   Parameters: {"commit"=>"Add comment", "post_id"=>"3", "authenticity_token"=>"uIx7m1VZFQpAHc6MZaI2805nkdioGyHyZNGfRrqpOLU=", "comment"=>{"body"=>"KUREEEEEEC"}}
 
 SyntaxError (/Volumes/Work/blog/app/controllers/comments_controller.rb:9: syntax error, unexpected $end, expecting kEND):
-  
+
 
 Rendered rescues/_trace (137.5ms)
 Rendered rescues/_request_and_response (0.4ms)
@@ -2133,7 +2133,7 @@ Completed in 92ms (View: 1, DB: 0) | 200 OK [http://localhost/sprockets.js]
 Processing ApplicationController#index (for 127.0.0.1 at 2009-12-02 13:30:03) [GET]
 
 ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
-  
+
 
 Rendering rescues/layout (not_found)
 
@@ -2141,7 +2141,7 @@ Rendering rescues/layout (not_found)
 Processing ApplicationController#index (for 127.0.0.1 at 2009-12-02 13:30:04) [GET]
 
 ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
-  
+
 
 Rendering rescues/layout (not_found)
 
@@ -2163,7 +2163,7 @@ Completed in 797ms (View: 1, DB: 0) | 200 OK [http://localhost/sprockets.js]
 Processing ApplicationController#index (for 127.0.0.1 at 2009-12-07 17:16:26) [GET]
 
 ActionController::RoutingError (No route matches "/javascripts/prototype.js" with {:method=>:get}):
-  
+
 
 Rendering rescues/layout (not_found)
 
@@ -2171,7 +2171,7 @@ Rendering rescues/layout (not_found)
 Processing ApplicationController#index (for 127.0.0.1 at 2009-12-07 17:16:26) [GET]
 
 ActionController::RoutingError (No route matches "/javascripts/effects.js" with {:method=>:get}):
-  
+
 
 Rendering rescues/layout (not_found)
 
@@ -2193,7 +2193,7 @@ Completed in 1037ms (View: 1, DB: 0) | 200 OK [http://localhost/sprockets.js]
 Processing ApplicationController#index (for 127.0.0.1 at 2009-12-07 17:18:13) [GET]
 
 ActionController::RoutingError (No route matches "/Chapter" with {:method=>:get}):
-  
+
 
 Rendering rescues/layout (not_found)
 
@@ -2667,9 +2667,9 @@ Rendering posts/new
 
 ActionView::TemplateError (undefined method `form' for #<Post:0x23e27c0>) on line #3 of app/views/posts/new.html.erb:
 1: <h1>New post</h1>
-2: 
+2:
 3: <%= render :partial => @post.form %>
-4: 
+4:
 5: <%= link_to 'Back', posts_path %>
 
     app/views/posts/new.html.erb:3
@@ -2706,9 +2706,9 @@ Rendering posts/new
 
 ActionView::TemplateError (undefined method `form' for #<Post:0x25b14fc>) on line #3 of app/views/posts/new.html.erb:
 1: <h1>New post</h1>
-2: 
+2:
 3: <%= render :partial => @post.form %>
-4: 
+4:
 5: <%= link_to 'Back', posts_path %>
 
     app/views/posts/new.html.erb:3
@@ -2725,9 +2725,9 @@ Rendering posts/new
 
 ActionView::TemplateError (undefined method `form' for #<Post:0x2794634>) on line #3 of app/views/posts/new.html.erb:
 1: <h1>New post</h1>
-2: 
+2:
 3: <%= render :partial => @post.form %>
-4: 
+4:
 5: <%= link_to 'Back', posts_path %>
 
     app/views/posts/new.html.erb:3
@@ -2744,9 +2744,9 @@ Rendering posts/new
 
 ActionView::TemplateError (undefined method `form' for #<Post:0x289d904>) on line #3 of app/views/posts/new.html.erb:
 1: <h1>New post</h1>
-2: 
+2:
 3: <%= render :partial => @post.form %>
-4: 
+4:
 5: <%= link_to 'Back', posts_path %>
 
     app/views/posts/new.html.erb:3
@@ -2794,7 +2794,7 @@ Rendering posts/new
 ActionView::TemplateError (undefined local variable or method `post' for #<ActionView::Base:0x2900db0>) on line #1 of app/views/posts/_form.html.erb:
 1: <% form_for post do |f| %>
 2:   <%= f.error_messages %>
-3: 
+3:
 4:   <p>
 
     app/views/posts/_form.html.erb:1
@@ -2939,7 +2939,7 @@ Rendered posts/_post (8.6ms)
 ActionView::TemplateError (You have a nil object when you didn't expect it!
 You might have expected an instance of Array.
 The error occurred while evaluating nil.each) on line #12 of app/views/posts/show.html.erb:
-9: 
+9:
 10: <dl>
 11:   <dt>Tags</dt>
 12:   <% @tags.each do %>
@@ -2970,7 +2970,7 @@ ActionView::TemplateError (undefined method `title' for #<Tag:0x2797a14>) on lin
 13:   <dd><%=h tag.title %></dd>
 14:   <% end %>
 15: </dl>
-16: 
+16:
 
     app/views/posts/show.html.erb:13
     app/views/posts/show.html.erb:12

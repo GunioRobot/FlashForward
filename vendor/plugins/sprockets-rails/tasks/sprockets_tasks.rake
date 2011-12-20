@@ -3,7 +3,7 @@ namespace :sprockets do
   task :install_script => :environment do
     SprocketsApplication.install_script
   end
-  
+
   desc "Install any assets provided by Sprockets scripts"
   task :install_assets => :environment do
     SprocketsApplication.install_assets

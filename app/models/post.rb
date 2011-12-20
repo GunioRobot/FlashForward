@@ -5,13 +5,13 @@ class Post < ActiveRecord::Base
   validates_presence_of :title, :body
   attr_writer :tag_names
   after_save :assign_tags
-  
+
   def tag_names
     @tag_names || tags.map(&:name).join(' ')
   end
-  
+
   private
-  
+
   def assign_tags
     if @tag_names
       self.tags = @tag_names.split(/\s+/).map do |name|

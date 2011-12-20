@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
   before_filter :authenticate, :except => [:index, :show]
-  
+
   # GET /posts
   # GET /posts.xml
   def index
@@ -85,9 +85,9 @@ class PostsController < ApplicationController
       format.xml  { head :ok }
     end
   end
-  
+
   private
-  
+
   def authenticate
     authenticate_or_request_with_http_basic do |name, password|
       name == "admin" && password == "secret"

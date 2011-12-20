@@ -1,11 +1,11 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
 one:
-  name: 
-  slug: 
+  name:
+  slug:
   category: false
 
 two:
-  name: 
-  slug: 
+  name:
+  slug:
   category: false
